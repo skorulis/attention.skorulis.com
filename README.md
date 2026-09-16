@@ -2,7 +2,7 @@
 
 Track likes, views, comments, and reposts for social media posts, plus follower counts per account. A CLI job pulls recent data and stores it in SQLite.
 
-Bluesky is the first integrated platform. Views are stored as `null` there because Bluesky does not expose view or impression counts.
+Supported platforms: Bluesky and Instagram. Bluesky views are stored as `null` because that API does not expose view counts. Instagram maps shares/reposts onto the `reposts` field; quotes are `null`.
 
 ## Setup
 
@@ -11,7 +11,12 @@ npm install
 cp accounts.example.json accounts.json
 ```
 
-Edit `accounts.json` with your account ids, platforms, and handles. That file is gitignored.
+Edit `accounts.json` with your accounts. That file is gitignored.
+
+How to fill in each platform:
+
+- [Bluesky](docs/bluesky.md) — public handle only
+- [Instagram](docs/instagram.md) — professional account and long-lived access token
 
 ```json
 {
@@ -21,6 +26,12 @@ Edit `accounts.json` with your account ids, platforms, and handles. That file is
       "id": "personal-bsky",
       "platform": "bluesky",
       "handle": "you.bsky.social"
+    },
+    {
+      "id": "personal-ig",
+      "platform": "instagram",
+      "handle": "yourhandle",
+      "accessToken": "LONG_LIVED_ACCESS_TOKEN"
     }
   ]
 }

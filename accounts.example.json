@@ -5,6 +5,12 @@
       "id": "personal-bsky",
       "platform": "bluesky",
       "handle": "you.bsky.social"
+    },
+    {
+      "id": "personal-ig",
+      "platform": "instagram",
+      "handle": "yourhandle",
+      "accessToken": "LONG_LIVED_ACCESS_TOKEN"
     }
   ]
 }

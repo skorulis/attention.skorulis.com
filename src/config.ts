@@ -5,6 +5,9 @@ export interface AccountConfig {
   id: string;
   platform: string;
   handle: string;
+  accessToken?: string;
+  userId?: string;
+  graph?: "instagram" | "facebook";
 }
 
 export interface AppConfig {
@@ -59,8 +62,36 @@ function validateAccount(raw: unknown, index: number): AccountConfig {
   const obj = raw as Record<string, unknown>;
   const id = requireNonEmptyString(obj.id, `accounts[${index}].id`);
   const platform = requireNonEmptyString(obj.platform, `accounts[${index}].platform`);
-  const handle = requireNonEmptyString(obj.handle, `accounts[${index}].handle`);
-  return { id, platform, handle };
+  const handle = requireNonEmptyString(obj.handle, `accounts[${index}].handle`).replace(/^@/, "");
+
+  const account: AccountConfig = { id, platform, handle };
+
+  if (platform === "instagram") {
+    account.accessToken = requireNonEmptyString(
+      obj.accessToken,
+      `accounts[${index}].accessToken`,
+    );
+    account.graph = parseGraph(obj.graph, `accounts[${index}].graph`);
+    if (obj.userId !== undefined) {
+      account.userId = requireNonEmptyString(obj.userId, `accounts[${index}].userId`);
+    } else if (account.graph === "facebook") {
+      throw new Error(
+        `accounts[${index}].userId is required when graph is "facebook" (the IG professional account id)`,
+      );
+    }
+  }
+
+  return account;
+}
+
+function parseGraph(value: unknown, field: string): "instagram" | "facebook" {
+  if (value === undefined) {
+    return "instagram";
+  }
+  if (value === "instagram" || value === "facebook") {
+    return value;
+  }
+  throw new Error(`${field} must be "instagram" or "facebook"`);
 }
 
 function requireNonEmptyString(value: unknown, field: string): string {
