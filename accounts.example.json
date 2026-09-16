@@ -1,0 +1,10 @@
+{
+  "recentDays": 14,
+  "accounts": [
+    {
+      "id": "personal-bsky",
+      "platform": "bluesky",
+      "handle": "you.bsky.social"
+    }
+  ]
+}

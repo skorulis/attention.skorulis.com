@@ -1,0 +1,23 @@
+{
+  "name": "attention",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Track social media post performance across accounts and platforms",
+  "scripts": {
+    "sync": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.15.27",
+    "better-sqlite3": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
