@@ -72,8 +72,16 @@ Routes (hash):
 - `#/account/:id` — follower chart and post list
 - `#/post/:id` — engagement series (likes, views, comments, reposts, quotes when present)
 
-Generated files under `web/public/data/` are gitignored.
+### Deploy (GitHub Pages)
 
+Sync stays local. After sync/export, commit `web/public/data/` and push `main`. The [Pages workflow](.github/workflows/pages.yml) builds the Vite site and publishes it to [attention.skorulis.com](https://attention.skorulis.com).
+
+One-time setup:
+
+1. DNS: `CNAME` record `attention` → `skorulis.github.io`
+2. Repo **Settings → Pages**: Source = **GitHub Actions**; custom domain = `attention.skorulis.com`; enable HTTPS when available
+
+`accounts.json` and SQLite stay gitignored. Only the exported JSON is public.
 ## Schedule
 
 Run on a timer with cron or launchd. Example crontab (every hour):
