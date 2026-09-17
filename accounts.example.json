@@ -10,7 +10,7 @@
       "id": "personal-ig",
       "platform": "instagram",
       "handle": "yourhandle",
-      "accessToken": "LONG_LIVED_ACCESS_TOKEN"
+      "accessToken": "INSTAGRAM_ACCESS_TOKEN"
     }
   ]
 }

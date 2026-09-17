@@ -10,12 +10,14 @@ export interface AccountConfig {
   graph?: "instagram" | "facebook";
 }
 
+export const DEFAULT_CONFIG_PATH = "accounts.json";
+
 export interface AppConfig {
   recentDays: number;
   accounts: AccountConfig[];
 }
 
-export function loadConfig(configPath = "accounts.json"): AppConfig {
+export function loadConfig(configPath = DEFAULT_CONFIG_PATH): AppConfig {
   const resolved = path.resolve(configPath);
   if (!fs.existsSync(resolved)) {
     throw new Error(
@@ -67,11 +69,11 @@ function validateAccount(raw: unknown, index: number): AccountConfig {
   const account: AccountConfig = { id, platform, handle };
 
   if (platform === "instagram") {
+    account.graph = parseGraph(obj.graph, `accounts[${index}].graph`);
     account.accessToken = requireNonEmptyString(
       obj.accessToken,
       `accounts[${index}].accessToken`,
     );
-    account.graph = parseGraph(obj.graph, `accounts[${index}].graph`);
     if (obj.userId !== undefined) {
       account.userId = requireNonEmptyString(obj.userId, `accounts[${index}].userId`);
     } else if (account.graph === "facebook") {

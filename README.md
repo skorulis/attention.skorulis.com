@@ -16,7 +16,7 @@ Edit `accounts.json` with your accounts. That file is gitignored.
 How to fill in each platform:
 
 - [Bluesky](docs/bluesky.md) — public handle only
-- [Instagram](docs/instagram.md) — professional account and long-lived access token
+- [Instagram](docs/instagram.md) — dashboard access token
 
 ```json
 {
@@ -31,7 +31,7 @@ How to fill in each platform:
       "id": "personal-ig",
       "platform": "instagram",
       "handle": "yourhandle",
-      "accessToken": "LONG_LIVED_ACCESS_TOKEN"
+      "accessToken": "INSTAGRAM_ACCESS_TOKEN"
     }
   ]
 }
