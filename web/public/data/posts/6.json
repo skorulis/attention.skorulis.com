@@ -1,0 +1,32 @@
+{
+  "id": 6,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3musjmzobvc25",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3musjmzobvc25",
+  "text": "Still struggling with google deindexing from 3 weeks ago. Anyone know how to get out of the doghouse? #seo #duskroute",
+  "postedAt": "2026-09-05T22:28:03.762Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-17",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

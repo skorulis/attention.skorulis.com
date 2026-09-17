@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mulctyfkik2r",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mulctyfkik2r",
+  "text": "It's crazy how quickly the cheap happy hours are drying up in Sydney. 2 months after I first started gathering data I'm seeing a large number of the best deals gone. There are only 2 places left where you can get a pint for $7 and one of those has already announced it is closing.\n\n#duskroute",
+  "postedAt": "2026-09-03T01:38:02.946Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mukzizdwdk2e",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mukzizdwdk2e",
+  "text": "Cursor has gone downhill significantly since Grok became the default model. It's much slower and when I ask it questions it tries to gaslight me with completely wrong information.",
+  "postedAt": "2026-09-02T22:50:51.166Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

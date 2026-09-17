@@ -1,0 +1,41 @@
+{
+  "id": "skorulis-growth-bsky",
+  "platform": "bluesky",
+  "handle": "skorulis-growth.bsky.social",
+  "followers": 0,
+  "updatedAt": "2026-09-17T10:47:03.677Z",
+  "followerSeries": [
+    {
+      "recordedOn": "2026-09-17",
+      "followers": 0
+    }
+  ],
+  "posts": [
+    {
+      "id": 12,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:zpeg3d77xi27nnauw7mwxkry/app.bsky.feed.post/3mvp3v4nqy22v",
+      "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvp3v4nqy22v",
+      "text": "I believe there isn’t any point in building software without having a pre existing distribution system due to how bad d…",
+      "postedAt": "2026-09-17T07:09:15.353Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 13,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:zpeg3d77xi27nnauw7mwxkry/app.bsky.feed.post/3mvp3ogyd4s2v",
+      "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvp3ogyd4s2v",
+      "text": "I’m creating a new account to test out social growth approaches and document the results.",
+      "postedAt": "2026-09-17T07:05:31.300Z",
+      "likes": 1,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

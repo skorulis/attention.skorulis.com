@@ -1,0 +1,32 @@
+{
+  "id": 4,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mut5jiklds2l",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mut5jiklds2l",
+  "text": "I'm thinking about switching from Cursor to Windsurf as I'm finding Grok not nearly as effective or efficient as the previous Auto model. Does anyone have any experience with both platforms?\n\n#cursor #windsurf",
+  "postedAt": "2026-09-06T04:23:59.988Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-17",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

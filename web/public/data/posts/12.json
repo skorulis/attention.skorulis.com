@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "accountId": "skorulis-growth-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:zpeg3d77xi27nnauw7mwxkry/app.bsky.feed.post/3mvp3v4nqy22v",
+  "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvp3v4nqy22v",
+  "text": "I believe there isn’t any point in building software without having a pre existing distribution system due to how bad discovery is these days. #growth #discovery",
+  "postedAt": "2026-09-17T07:09:15.353Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-17",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

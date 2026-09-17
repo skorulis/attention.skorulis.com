@@ -1,0 +1,32 @@
+{
+  "id": 5,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3muskvxa75k2b",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3muskvxa75k2b",
+  "text": "Bluesky is one of the only social media apps that I haven’t disabled notifications for. Too many apps are using them to pull in my attention rather than for something important. #socialmedia",
+  "postedAt": "2026-09-05T22:50:56.931Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-17",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

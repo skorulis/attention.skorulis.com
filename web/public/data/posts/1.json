@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvgwgffct22x",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvgwgffct22x",
+  "text": "Flooding this morning in Phong Nha. Stopped just short of hitting the ground level rooms. #vietnam",
+  "postedAt": "2026-09-14T01:10:14.575Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-16",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-17",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

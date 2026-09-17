@@ -1,0 +1,48 @@
+{
+  "exportedAt": "2026-09-17T10:47:06.803Z",
+  "accounts": [
+    {
+      "id": "skorulis-instagram",
+      "platform": "instagram",
+      "handle": "skorulis",
+      "followers": 6840,
+      "updatedAt": "2026-09-17T10:47:06.792Z",
+      "followerSeries": [
+        {
+          "recordedOn": "2026-09-17",
+          "followers": 6840
+        }
+      ]
+    },
+    {
+      "id": "skorulis-growth-bsky",
+      "platform": "bluesky",
+      "handle": "skorulis-growth.bsky.social",
+      "followers": 0,
+      "updatedAt": "2026-09-17T10:47:03.677Z",
+      "followerSeries": [
+        {
+          "recordedOn": "2026-09-17",
+          "followers": 0
+        }
+      ]
+    },
+    {
+      "id": "skorulis-bsky",
+      "platform": "bluesky",
+      "handle": "skorulis.bsky.social",
+      "followers": 48,
+      "updatedAt": "2026-09-17T10:47:03.025Z",
+      "followerSeries": [
+        {
+          "recordedOn": "2026-09-16",
+          "followers": 47
+        },
+        {
+          "recordedOn": "2026-09-17",
+          "followers": 48
+        }
+      ]
+    }
+  ]
+}

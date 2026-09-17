@@ -1,0 +1,136 @@
+{
+  "id": "skorulis-bsky",
+  "platform": "bluesky",
+  "handle": "skorulis.bsky.social",
+  "followers": 48,
+  "updatedAt": "2026-09-17T10:47:03.025Z",
+  "followerSeries": [
+    {
+      "recordedOn": "2026-09-16",
+      "followers": 47
+    },
+    {
+      "recordedOn": "2026-09-17",
+      "followers": 48
+    }
+  ],
+  "posts": [
+    {
+      "id": 11,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvoz3x5bxc25",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvoz3x5bxc25",
+      "text": "Phong Nha in Vietnam, more rain than I've ever seen. #vietnam #travel. blog.skorulis.com/2026/09/11/p...",
+      "postedAt": "2026-09-17T06:19:23.226Z",
+      "likes": 1,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 1,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvgwgffct22x",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvgwgffct22x",
+      "text": "Flooding this morning in Phong Nha. Stopped just short of hitting the ground level rooms. #vietnam",
+      "postedAt": "2026-09-14T01:10:14.575Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 2,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvejhwyu222i",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvejhwyu222i",
+      "text": "The next stop in my Vietnam trip, Da Nang. blog.skorulis.com/2026/09/10/d...",
+      "postedAt": "2026-09-13T02:13:08.480Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
+    {
+      "id": 3,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mv2pry3uks2v",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mv2pry3uks2v",
+      "text": "Documenting my travel around Vietnam. #vietnam #hoian #travel blog.skorulis.com/2026/09/09/a...",
+      "postedAt": "2026-09-09T04:39:30.240Z",
+      "likes": 2,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
+    {
+      "id": 4,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mut5jiklds2l",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mut5jiklds2l",
+      "text": "I'm thinking about switching from Cursor to Windsurf as I'm finding Grok not nearly as effective or efficient as the pr…",
+      "postedAt": "2026-09-06T04:23:59.988Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 5,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3muskvxa75k2b",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3muskvxa75k2b",
+      "text": "Bluesky is one of the only social media apps that I haven’t disabled notifications for. Too many apps are using them to…",
+      "postedAt": "2026-09-05T22:50:56.931Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 6,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3musjmzobvc25",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3musjmzobvc25",
+      "text": "Still struggling with google deindexing from 3 weeks ago. Anyone know how to get out of the doghouse? #seo #duskroute",
+      "postedAt": "2026-09-05T22:28:03.762Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 7,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mulctyfkik2r",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mulctyfkik2r",
+      "text": "It's crazy how quickly the cheap happy hours are drying up in Sydney. 2 months after I first started gathering data I'm…",
+      "postedAt": "2026-09-03T01:38:02.946Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 8,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mukzizdwdk2e",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mukzizdwdk2e",
+      "text": "Cursor has gone downhill significantly since Grok became the default model. It's much slower and when I ask it question…",
+      "postedAt": "2026-09-02T22:50:51.166Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
