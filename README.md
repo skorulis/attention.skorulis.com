@@ -54,6 +54,26 @@ The job:
 
 Only posts from the last `recentDays` days are updated. Older posts keep their last stored values.
 
+After a successful sync, the job also exports chart-ready JSON into `web/public/data/` for the static site.
+
+## Site
+
+A static dashboard charts follower growth per account and engagement over time per post. It reads exported JSON only (no live SQLite).
+
+```bash
+npm run export    # refresh JSON from SQLite without syncing
+npm run site:dev  # local Vite server at http://localhost:5173
+npm run site      # production build + preview
+```
+
+Routes (hash):
+
+- `#/` — accounts with follower sparklines
+- `#/account/:id` — follower chart and post list
+- `#/post/:id` — engagement series (likes, views, comments, reposts, quotes when present)
+
+Generated files under `web/public/data/` are gitignored.
+
 ## Schedule
 
 Run on a timer with cron or launchd. Example crontab (every hour):
@@ -70,3 +90,9 @@ SQLite file: `data/attention.sqlite`
 - `posts` — latest metrics per post
 - `post_snapshots` — metric history for charting growth
 - `follower_snapshots` — follower history
+
+Static export (written by `npm run export` / end of `npm run sync`):
+
+- `web/public/data/index.json`
+- `web/public/data/accounts/{id}.json`
+- `web/public/data/posts/{postId}.json`

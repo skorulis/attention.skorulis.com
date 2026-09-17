@@ -5,19 +5,25 @@
   "type": "module",
   "description": "Track social media post performance across accounts and platforms",
   "scripts": {
-    "sync": "tsx src/index.ts"
+    "sync": "tsx src/index.ts",
+    "export": "tsx src/export-cli.ts",
+    "site": "npm run site:build && vite preview --config web/vite.config.ts",
+    "site:dev": "vite --config web/vite.config.ts",
+    "site:build": "vite build --config web/vite.config.ts"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
     "@atproto/api": "^0.15.27",
-    "better-sqlite3": "^12.2.0"
+    "better-sqlite3": "^12.2.0",
+    "chart.js": "^4.5.1"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^24.3.1",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^8.3.0"
   }
 }

@@ -6,4 +6,7 @@ accounts.json
 *.sqlite-journal
 *.sqlite-wal
 *.sqlite-shm
+web/dist/
+web/public/data/**
+!web/public/data/.gitkeep
 .DS_Store

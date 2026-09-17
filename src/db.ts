@@ -270,3 +270,173 @@ function insertPostSnapshot(
     recordedOn: snapshotDay(recordedAt),
   });
 }
+
+export interface FollowerPoint {
+  recordedOn: string;
+  followers: number | null;
+}
+
+export interface MetricPoint {
+  recordedOn: string;
+  likes: number | null;
+  views: number | null;
+  comments: number | null;
+  reposts: number | null;
+  quotes: number | null;
+}
+
+export interface AccountRow {
+  id: string;
+  platform: string;
+  handle: string;
+  followers: number | null;
+  updatedAt: string;
+}
+
+export interface PostRow {
+  id: number;
+  accountId: string;
+  platform: string;
+  platformPostId: string;
+  url: string | null;
+  text: string | null;
+  postedAt: string;
+  likes: number | null;
+  views: number | null;
+  comments: number | null;
+  reposts: number | null;
+  quotes: number | null;
+}
+
+export function listAccounts(db: Database.Database): AccountRow[] {
+  const rows = db
+    .prepare(
+      `
+      SELECT id, platform, handle, followers, updated_at AS updatedAt
+      FROM accounts
+      ORDER BY handle COLLATE NOCASE
+      `,
+    )
+    .all() as AccountRow[];
+  return rows;
+}
+
+export function getAccount(db: Database.Database, accountId: string): AccountRow | undefined {
+  return db
+    .prepare(
+      `
+      SELECT id, platform, handle, followers, updated_at AS updatedAt
+      FROM accounts
+      WHERE id = ?
+      `,
+    )
+    .get(accountId) as AccountRow | undefined;
+}
+
+export function listFollowerSnapshots(
+  db: Database.Database,
+  accountId: string,
+): FollowerPoint[] {
+  return db
+    .prepare(
+      `
+      SELECT recorded_on AS recordedOn, followers
+      FROM follower_snapshots
+      WHERE account_id = ?
+      ORDER BY recorded_on ASC
+      `,
+    )
+    .all(accountId) as FollowerPoint[];
+}
+
+export function listPostsForAccount(db: Database.Database, accountId: string): PostRow[] {
+  return db
+    .prepare(
+      `
+      SELECT
+        id,
+        account_id AS accountId,
+        platform,
+        platform_post_id AS platformPostId,
+        url,
+        text,
+        posted_at AS postedAt,
+        likes,
+        views,
+        comments,
+        reposts,
+        quotes
+      FROM posts
+      WHERE account_id = ?
+      ORDER BY posted_at DESC
+      `,
+    )
+    .all(accountId) as PostRow[];
+}
+
+export function getPost(db: Database.Database, postId: number): PostRow | undefined {
+  return db
+    .prepare(
+      `
+      SELECT
+        id,
+        account_id AS accountId,
+        platform,
+        platform_post_id AS platformPostId,
+        url,
+        text,
+        posted_at AS postedAt,
+        likes,
+        views,
+        comments,
+        reposts,
+        quotes
+      FROM posts
+      WHERE id = ?
+      `,
+    )
+    .get(postId) as PostRow | undefined;
+}
+
+export function listPostSnapshots(db: Database.Database, postId: number): MetricPoint[] {
+  return db
+    .prepare(
+      `
+      SELECT
+        recorded_on AS recordedOn,
+        likes,
+        views,
+        comments,
+        reposts,
+        quotes
+      FROM post_snapshots
+      WHERE post_id = ?
+      ORDER BY recorded_on ASC
+      `,
+    )
+    .all(postId) as MetricPoint[];
+}
+
+export function listAllPosts(db: Database.Database): PostRow[] {
+  return db
+    .prepare(
+      `
+      SELECT
+        id,
+        account_id AS accountId,
+        platform,
+        platform_post_id AS platformPostId,
+        url,
+        text,
+        posted_at AS postedAt,
+        likes,
+        views,
+        comments,
+        reposts,
+        quotes
+      FROM posts
+      ORDER BY posted_at DESC
+      `,
+    )
+    .all() as PostRow[];
+}

@@ -1,9 +1,11 @@
 import path from "node:path";
 import { loadConfig } from "./config.js";
 import { openDb } from "./db.js";
+import { exportSiteData } from "./export.js";
 import { runSync } from "./job.js";
 
 const dbPath = path.resolve("data/attention.sqlite");
+const exportOutDir = path.resolve("web/public/data");
 
 async function main(): Promise<void> {
   const config = loadConfig();
@@ -33,6 +35,16 @@ async function main(): Promise<void> {
     }
   } finally {
     db.close();
+  }
+
+  try {
+    const exported = exportSiteData(dbPath, exportOutDir);
+    console.log(
+      `Exported ${exported.accounts} accounts and ${exported.posts} posts to ${exportOutDir}`,
+    );
+  } catch (err: unknown) {
+    console.error(err instanceof Error ? err.message : err);
+    process.exitCode = 1;
   }
 }
 
