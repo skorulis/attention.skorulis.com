@@ -1,16 +1,20 @@
 {
-  "exportedAt": "2026-09-17T10:47:06.803Z",
+  "exportedAt": "2026-09-18T00:23:52.086Z",
   "accounts": [
     {
       "id": "skorulis-instagram",
       "platform": "instagram",
       "handle": "skorulis",
-      "followers": 6840,
-      "updatedAt": "2026-09-17T10:47:06.792Z",
+      "followers": 6839,
+      "updatedAt": "2026-09-18T00:23:52.073Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-17",
           "followers": 6840
+        },
+        {
+          "recordedOn": "2026-09-18",
+          "followers": 6839
         }
       ]
     },
@@ -18,12 +22,16 @@
       "id": "skorulis-growth-bsky",
       "platform": "bluesky",
       "handle": "skorulis-growth.bsky.social",
-      "followers": 0,
-      "updatedAt": "2026-09-17T10:47:03.677Z",
+      "followers": 1,
+      "updatedAt": "2026-09-18T00:23:32.831Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-17",
           "followers": 0
+        },
+        {
+          "recordedOn": "2026-09-18",
+          "followers": 1
         }
       ]
     },
@@ -32,7 +40,7 @@
       "platform": "bluesky",
       "handle": "skorulis.bsky.social",
       "followers": 48,
-      "updatedAt": "2026-09-17T10:47:03.025Z",
+      "updatedAt": "2026-09-18T00:23:32.121Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-16",
@@ -40,6 +48,10 @@
         },
         {
           "recordedOn": "2026-09-17",
+          "followers": 48
+        },
+        {
+          "recordedOn": "2026-09-18",
           "followers": 48
         }
       ]

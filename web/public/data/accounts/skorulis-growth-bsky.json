@@ -2,12 +2,16 @@
   "id": "skorulis-growth-bsky",
   "platform": "bluesky",
   "handle": "skorulis-growth.bsky.social",
-  "followers": 0,
-  "updatedAt": "2026-09-17T10:47:03.677Z",
+  "followers": 1,
+  "updatedAt": "2026-09-18T00:23:32.831Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
       "followers": 0
+    },
+    {
+      "recordedOn": "2026-09-18",
+      "followers": 1
     }
   ],
   "posts": [
@@ -31,7 +35,7 @@
       "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvp3ogyd4s2v",
       "text": "I’m creating a new account to test out social growth approaches and document the results.",
       "postedAt": "2026-09-17T07:05:31.300Z",
-      "likes": 1,
+      "likes": 2,
       "views": null,
       "comments": 0,
       "reposts": 0,

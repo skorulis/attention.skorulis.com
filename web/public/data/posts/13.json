@@ -6,7 +6,7 @@
   "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvp3ogyd4s2v",
   "text": "I’m creating a new account to test out social growth approaches and document the results.",
   "postedAt": "2026-09-17T07:05:31.300Z",
-  "likes": 1,
+  "likes": 2,
   "views": null,
   "comments": 0,
   "reposts": 0,
@@ -15,6 +15,14 @@
     {
       "recordedOn": "2026-09-17",
       "likes": 1,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-18",
+      "likes": 2,
       "views": null,
       "comments": 0,
       "reposts": 0,

@@ -2,7 +2,7 @@
 
 Track likes, views, comments, and reposts for social media posts, plus follower counts per account. A CLI job pulls recent data and stores it in SQLite.
 
-Supported platforms: Bluesky and Instagram. Bluesky views are stored as `null` because that API does not expose view counts. Instagram maps shares/reposts onto the `reposts` field; quotes are `null`.
+Supported platforms: Bluesky and Instagram. Bluesky views are stored as `null` because that API does not expose view counts.
 
 ## Setup
 

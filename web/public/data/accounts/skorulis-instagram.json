@@ -2,15 +2,32 @@
   "id": "skorulis-instagram",
   "platform": "instagram",
   "handle": "skorulis",
-  "followers": 6840,
-  "updatedAt": "2026-09-17T10:47:06.792Z",
+  "followers": 6839,
+  "updatedAt": "2026-09-18T00:23:52.073Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
       "followers": 6840
+    },
+    {
+      "recordedOn": "2026-09-18",
+      "followers": 6839
     }
   ],
   "posts": [
+    {
+      "id": 15,
+      "platform": "instagram",
+      "platformPostId": "18027536408855541",
+      "url": "https://www.instagram.com/p/DdZE78CTKdW/",
+      "text": "Shandong Hande Diwangyuan 1583 Witbeer 4.8% I purchased this because of the funny giant can which I then realised I cou…",
+      "postedAt": "2026-09-17T14:30:13.000Z",
+      "likes": 14,
+      "views": 107,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": null
+    },
     {
       "id": 14,
       "platform": "instagram",
@@ -18,8 +35,8 @@
       "url": "https://www.instagram.com/p/DdYmki2pbfM/",
       "text": "Thom Tây Bǎc 6.3% This beer is probably past its prime. I had to wait 5 minutes for the frothing to stop and it has a s…",
       "postedAt": "2026-09-17T10:04:50.000Z",
-      "likes": 8,
-      "views": 60,
+      "likes": 15,
+      "views": 130,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -32,7 +49,7 @@
       "text": "Brewmaster Amber 5.4% Light on the bitterness for an amber. It’s good but kind of misses the point of what an amber sho…",
       "postedAt": "2026-09-12T14:57:18.000Z",
       "likes": 31,
-      "views": 254,
+      "views": 255,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -45,7 +62,7 @@
       "text": "Khoi Brewpub Gió Lào Green Rice 4.5% I like the unique green tinge and it has the taste of rice starch and a nice hit o…",
       "postedAt": "2026-09-11T10:52:49.000Z",
       "likes": 49,
-      "views": 318,
+      "views": 321,
       "comments": 0,
       "reposts": 0,
       "quotes": null
