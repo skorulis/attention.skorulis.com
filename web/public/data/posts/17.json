@@ -1,0 +1,24 @@
+{
+  "id": 17,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mtru6oclds2k",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mtru6oclds2k",
+  "text": "The real problem with AI is that everything it says sounds completely plausible until you spend weeks digging into a problem and realise that it was all wrong. And then it just goes “Whoops”",
+  "postedAt": "2026-08-23T22:39:01.872Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-18",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

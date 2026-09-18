@@ -1,0 +1,24 @@
+{
+  "id": 16,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mu4bqaijoc2n",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mu4bqaijoc2n",
+  "text": "When people search for happy hours on my site I keep track of which domain referred them. Today com.slack popped up and I absolutely love that people are at work on Friday but thinking ahead for where there next beer is coming from.",
+  "postedAt": "2026-08-28T02:08:07.397Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-18",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
