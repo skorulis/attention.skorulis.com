@@ -2,6 +2,8 @@ export type Route =
   | { name: "home" }
   | { name: "account"; id: string }
   | { name: "post"; id: string }
+  | { name: "experiments" }
+  | { name: "experiment"; slug: string }
   | { name: "notfound" };
 
 export function parseRoute(hash = window.location.hash): Route {
@@ -18,6 +20,14 @@ export function parseRoute(hash = window.location.hash): Route {
 
   if (parts[0] === "post" && parts[1]) {
     return { name: "post", id: decodeURIComponent(parts[1]) };
+  }
+
+  if (parts[0] === "experiments" && parts.length === 1) {
+    return { name: "experiments" };
+  }
+
+  if (parts[0] === "experiment" && parts[1]) {
+    return { name: "experiment", slug: decodeURIComponent(parts[1]) };
   }
 
   return { name: "notfound" };

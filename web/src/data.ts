@@ -1,4 +1,10 @@
-import type { AccountData, IndexData, PostData } from "./types";
+import type {
+  AccountData,
+  ExperimentData,
+  ExperimentIndex,
+  IndexData,
+  PostData,
+} from "./types";
 
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url);
@@ -18,4 +24,14 @@ export function loadAccount(id: string): Promise<AccountData> {
 
 export function loadPost(id: string): Promise<PostData> {
   return fetchJson<PostData>(`/data/posts/${encodeURIComponent(id)}.json`);
+}
+
+export function loadExperimentIndex(): Promise<ExperimentIndex> {
+  return fetchJson<ExperimentIndex>("/data/experiments/index.json");
+}
+
+export function loadExperiment(slug: string): Promise<ExperimentData> {
+  return fetchJson<ExperimentData>(
+    `/data/experiments/${encodeURIComponent(slug)}.json`,
+  );
 }

@@ -71,6 +71,38 @@ Routes (hash):
 - `#/` — accounts with follower sparklines
 - `#/account/:id` — follower chart and post list
 - `#/post/:id` — engagement series (likes, views, comments, reposts, quotes when present)
+- `#/experiments` — list of documented experiments
+- `#/experiment/:slug` — comparison page for one experiment
+
+### Experiments
+
+Hand-authored JSON under `web/public/data/experiments/` (not written by sync/export). Each experiment compares post arms and shows introduction + results copy.
+
+`web/public/data/experiments/index.json` lists experiments for the index page:
+
+```json
+{
+  "experiments": [
+    { "slug": "instagram-hashtags", "name": "Instagram Hashtags" }
+  ]
+}
+```
+
+Per experiment, `web/public/data/experiments/{slug}.json`:
+
+```json
+{
+  "name": "Instagram Hashtags",
+  "introduction": "…",
+  "results": "…",
+  "arms": [
+    { "label": "With hashtags", "postIds": [9, 10, 15] },
+    { "label": "Without hashtags", "postIds": [14] }
+  ]
+}
+```
+
+`postIds` are local post IDs (same as `web/public/data/posts/{id}.json`). The page loads those posts and shows per-arm averages for likes and views.
 
 ### Deploy (GitHub Pages)
 
@@ -104,3 +136,8 @@ Static export (written by `npm run export` / end of `npm run sync`):
 - `web/public/data/index.json`
 - `web/public/data/accounts/{id}.json`
 - `web/public/data/posts/{postId}.json`
+
+Hand-authored (not overwritten by export):
+
+- `web/public/data/experiments/index.json`
+- `web/public/data/experiments/{slug}.json`

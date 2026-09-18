@@ -7,7 +7,7 @@ export async function renderHome(root: HTMLElement): Promise<() => void> {
   root.innerHTML = `
     <header class="site-header">
       <a class="brand" href="#/">Attention</a>
-      <p class="nav-meta">Account &amp; post metrics</p>
+      <p class="nav-meta"><a href="#/experiments">Experiments</a> · Account &amp; post metrics</p>
     </header>
     <p class="page-sub">Follower trends and post engagement across synced accounts.</p>
     <div id="content"><p class="empty">Loading…</p></div>

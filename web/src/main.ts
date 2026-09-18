@@ -1,6 +1,8 @@
 import "./styles.css";
 import { onRouteChange, parseRoute } from "./router";
 import { renderAccount } from "./views/account";
+import { renderExperiment } from "./views/experiment";
+import { renderExperiments } from "./views/experiments";
 import { renderHome } from "./views/home";
 import { renderPost } from "./views/post";
 
@@ -27,6 +29,14 @@ async function render(): Promise<void> {
   }
   if (route.name === "post") {
     cleanup = await renderPost(app, route.id);
+    return;
+  }
+  if (route.name === "experiments") {
+    cleanup = await renderExperiments(app);
+    return;
+  }
+  if (route.name === "experiment") {
+    cleanup = await renderExperiment(app, route.slug);
     return;
   }
 

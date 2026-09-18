@@ -65,3 +65,24 @@ export interface PostData {
   quotes: number | null;
   series: MetricPoint[];
 }
+
+export interface ExperimentArm {
+  label: string;
+  postIds: number[];
+}
+
+export interface ExperimentData {
+  name: string;
+  introduction: string;
+  results: string;
+  arms: ExperimentArm[];
+}
+
+export interface ExperimentIndexEntry {
+  slug: string;
+  name: string;
+}
+
+export interface ExperimentIndex {
+  experiments: ExperimentIndexEntry[];
+}
