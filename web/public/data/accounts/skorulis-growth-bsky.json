@@ -3,7 +3,7 @@
   "platform": "bluesky",
   "handle": "skorulis-growth.bsky.social",
   "followers": 1,
-  "updatedAt": "2026-09-18T11:13:23.810Z",
+  "updatedAt": "2026-09-20T00:07:59.987Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
@@ -12,9 +12,26 @@
     {
       "recordedOn": "2026-09-18",
       "followers": 1
+    },
+    {
+      "recordedOn": "2026-09-20",
+      "followers": 1
     }
   ],
   "posts": [
+    {
+      "id": 24,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:zpeg3d77xi27nnauw7mwxkry/app.bsky.feed.post/3mvtfbsl67s2u",
+      "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvtfbsl67s2u",
+      "text": "Tenant 1 of my growth system: Write posts as if no one will see them.",
+      "postedAt": "2026-09-19T00:08:03.619Z",
+      "likes": 0,
+      "views": null,
+      "comments": 1,
+      "reposts": 0,
+      "quotes": 0
+    },
     {
       "id": 19,
       "platform": "bluesky",

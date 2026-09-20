@@ -1,0 +1,24 @@
+{
+  "id": 24,
+  "accountId": "skorulis-growth-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:zpeg3d77xi27nnauw7mwxkry/app.bsky.feed.post/3mvtfbsl67s2u",
+  "url": "https://bsky.app/profile/skorulis-growth.bsky.social/post/3mvtfbsl67s2u",
+  "text": "Tenant 1 of my growth system: Write posts as if no one will see them.",
+  "postedAt": "2026-09-19T00:08:03.619Z",
+  "likes": 0,
+  "views": null,
+  "comments": 1,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-20",
+      "likes": 0,
+      "views": null,
+      "comments": 1,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

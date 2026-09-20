@@ -1,0 +1,24 @@
+{
+  "id": 23,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvse2chy4226",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvse2chy4226",
+  "text": "1 day stopover in Hanoi. Looking forward to my next return. #vietnam #hanoi\n\nblog.skorulis.com/2026/09/15/h...",
+  "postedAt": "2026-09-18T14:13:18.377Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-20",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
