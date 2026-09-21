@@ -1,0 +1,32 @@
+{
+  "id": 25,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvvzhewgt227",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvvzhewgt227",
+  "text": "When Trump talks he rarely conveys any actual information, it’s just ranting nonsense and lies. We keep listening in the hope that this will be enough to have him committed to a nursing home where he belongs.",
+  "postedAt": "2026-09-20T01:14:24.947Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-20",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-21",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "platform": "bluesky",
   "handle": "skorulis-growth.bsky.social",
   "followers": 1,
-  "updatedAt": "2026-09-20T00:07:59.987Z",
+  "updatedAt": "2026-09-21T01:06:14.199Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
@@ -15,6 +15,10 @@
     },
     {
       "recordedOn": "2026-09-20",
+      "followers": 1
+    },
+    {
+      "recordedOn": "2026-09-21",
       "followers": 1
     }
   ],

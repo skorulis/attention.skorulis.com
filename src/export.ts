@@ -16,6 +16,8 @@ const DEFAULT_DB_PATH = path.resolve("data/attention.sqlite");
 const DEFAULT_OUT_DIR = path.resolve("web/public/data");
 const SPARKLINE_DAYS = 30;
 const TEXT_SNIPPET_LEN = 120;
+const GENERATED_DIRS = ["accounts", "posts"] as const;
+const GENERATED_FILES = ["index.json"] as const;
 
 export interface IndexAccountExport {
   id: string;
@@ -123,6 +125,15 @@ function clearDirContents(dir: string): void {
   }
 }
 
+function clearGenerated(outDir: string): void {
+  for (const dir of GENERATED_DIRS) {
+    clearDirContents(path.join(outDir, dir));
+  }
+  for (const file of GENERATED_FILES) {
+    fs.rmSync(path.join(outDir, file), { force: true });
+  }
+}
+
 export function exportSiteData(
   dbPath = DEFAULT_DB_PATH,
   outDir = DEFAULT_OUT_DIR,
@@ -133,7 +144,7 @@ export function exportSiteData(
 
   const db = openDb(dbPath);
   try {
-    clearDirContents(outDir);
+    clearGenerated(outDir);
     fs.mkdirSync(path.join(outDir, "accounts"), { recursive: true });
     fs.mkdirSync(path.join(outDir, "posts"), { recursive: true });
 

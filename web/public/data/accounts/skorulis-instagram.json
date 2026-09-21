@@ -3,7 +3,7 @@
   "platform": "instagram",
   "handle": "skorulis",
   "followers": 6838,
-  "updatedAt": "2026-09-20T00:08:10.064Z",
+  "updatedAt": "2026-09-21T01:06:18.005Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
@@ -16,9 +16,39 @@
     {
       "recordedOn": "2026-09-20",
       "followers": 6838
+    },
+    {
+      "recordedOn": "2026-09-21",
+      "followers": 6838
     }
   ],
   "posts": [
+    {
+      "id": 28,
+      "platform": "instagram",
+      "platformPostId": "18089468036228560",
+      "url": "https://www.instagram.com/p/Ddg7y_ThhPB/",
+      "text": "Sabeco Saigon Chill 4.6% Not sure if I can tell this from regular Saigon lager. Maybe a tad less bitter. I’m not sure I…",
+      "postedAt": "2026-09-20T15:45:10.000Z",
+      "likes": 10,
+      "views": 117,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": null
+    },
+    {
+      "id": 27,
+      "platform": "instagram",
+      "platformPostId": "18405633724090848",
+      "url": "https://www.instagram.com/p/DdfSkFfM2mD/",
+      "text": "Thom Dante’s Inferno 12.76% Really strong on the candied sugar giving it a sweet finish. It’s surprisingly easy to drin…",
+      "postedAt": "2026-09-20T00:25:48.000Z",
+      "likes": 13,
+      "views": 118,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": null
+    },
     {
       "id": 21,
       "platform": "instagram",
@@ -26,8 +56,8 @@
       "url": "https://www.instagram.com/p/DdbRUM1AH7C/",
       "text": "HaNoi Homebrew Citra Fog 6.5% Light on the haze but full on with the fruit. Pineapple and apricot come together as a de…",
       "postedAt": "2026-09-18T11:06:14.000Z",
-      "likes": 30,
-      "views": 172,
+      "likes": 32,
+      "views": 182,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -39,8 +69,8 @@
       "url": "https://www.instagram.com/p/DdaUohBhkLF/",
       "text": "HaNoi Homebrew Dont be afraid 8.6% Classic double IPA. There’s a lot of earthy hops with a very small amount of stone f…",
       "postedAt": "2026-09-18T02:07:06.000Z",
-      "likes": 35,
-      "views": 175,
+      "likes": 36,
+      "views": 187,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -52,8 +82,8 @@
       "url": "https://www.instagram.com/p/DdZE78CTKdW/",
       "text": "Shandong Hande Diwangyuan 1583 Witbeer 4.8% I purchased this because of the funny giant can which I then realised I cou…",
       "postedAt": "2026-09-17T14:30:13.000Z",
-      "likes": 18,
-      "views": 158,
+      "likes": 19,
+      "views": 173,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -65,8 +95,8 @@
       "url": "https://www.instagram.com/p/DdYmki2pbfM/",
       "text": "Thom Tây Bǎc 6.3% This beer is probably past its prime. I had to wait 5 minutes for the frothing to stop and it has a s…",
       "postedAt": "2026-09-17T10:04:50.000Z",
-      "likes": 18,
-      "views": 177,
+      "likes": 19,
+      "views": 196,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -79,7 +109,7 @@
       "text": "Brewmaster Amber 5.4% Light on the bitterness for an amber. It’s good but kind of misses the point of what an amber sho…",
       "postedAt": "2026-09-12T14:57:18.000Z",
       "likes": 32,
-      "views": 261,
+      "views": 262,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -91,8 +121,8 @@
       "url": "https://www.instagram.com/p/DdJPZRxmZxj/",
       "text": "Khoi Brewpub Gió Lào Green Rice 4.5% I like the unique green tinge and it has the taste of rice starch and a nice hit o…",
       "postedAt": "2026-09-11T10:52:49.000Z",
-      "likes": 51,
-      "views": 343,
+      "likes": 52,
+      "views": 351,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -105,7 +135,7 @@
       "text": "The Mitch in Alexandria. The venue Local neighbourhood pub with a pizza oven and a couple of craft beers on tap with so…",
       "postedAt": "2026-09-01T06:34:51.000Z",
       "likes": 22,
-      "views": 403,
+      "views": 406,
       "comments": 0,
       "reposts": 0,
       "quotes": null

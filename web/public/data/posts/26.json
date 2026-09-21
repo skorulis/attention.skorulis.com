@@ -1,0 +1,32 @@
+{
+  "id": 26,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvvxtf5xj227",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvvxtf5xj227",
+  "text": "Trying out mystery supermarket sandwiches in Vietnam. Lucky I decided to take a photo because the beef packet was hidden inside the sandwich. This one tastes like curry.",
+  "postedAt": "2026-09-20T00:45:20.358Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 1,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-20",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-21",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    }
+  ]
+}

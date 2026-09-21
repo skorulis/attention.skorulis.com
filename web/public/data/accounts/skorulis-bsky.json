@@ -3,7 +3,7 @@
   "platform": "bluesky",
   "handle": "skorulis.bsky.social",
   "followers": 48,
-  "updatedAt": "2026-09-20T00:07:58.349Z",
+  "updatedAt": "2026-09-21T01:06:13.176Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-16",
@@ -20,9 +20,39 @@
     {
       "recordedOn": "2026-09-20",
       "followers": 48
+    },
+    {
+      "recordedOn": "2026-09-21",
+      "followers": 48
     }
   ],
   "posts": [
+    {
+      "id": 25,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvvzhewgt227",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvvzhewgt227",
+      "text": "When Trump talks he rarely conveys any actual information, it’s just ranting nonsense and lies. We keep listening in th…",
+      "postedAt": "2026-09-20T01:14:24.947Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "id": 26,
+      "platform": "bluesky",
+      "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mvvxtf5xj227",
+      "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mvvxtf5xj227",
+      "text": "Trying out mystery supermarket sandwiches in Vietnam. Lucky I decided to take a photo because the beef packet was hidde…",
+      "postedAt": "2026-09-20T00:45:20.358Z",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
     {
       "id": 23,
       "platform": "bluesky",
