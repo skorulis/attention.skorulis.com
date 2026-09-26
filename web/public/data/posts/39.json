@@ -1,0 +1,24 @@
+{
+  "id": 39,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwf6inajfk2z",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwf6inajfk2z",
+  "text": "It's interesting that the analytics for the blog posts I share here show only 1 person has come from Bluesky but somehow there have been hundreds of other visits which don't look like bots.\n\nShows that sharing things is worth it even if you don't get direct interaction.\n#analytics #traffic",
+  "postedAt": "2026-09-26T01:54:32.007Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-26",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

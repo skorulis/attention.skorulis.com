@@ -1,0 +1,24 @@
+{
+  "id": 38,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwfcwhz4mk2z",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwfcwhz4mk2z",
+  "text": "I'm cancelling my Cursor subscription today. Since it started relying on Grok I've seen it become slower, give worse results and burn through tokens faster. I've found Grok especially bad when asking for advice where I've seen it gaslight me into doing the wrong thing.\n#cursor #coding #agents",
+  "postedAt": "2026-09-26T03:13:51.250Z",
+  "likes": 0,
+  "views": null,
+  "comments": 1,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-26",
+      "likes": 0,
+      "views": null,
+      "comments": 1,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
