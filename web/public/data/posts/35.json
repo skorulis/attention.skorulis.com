@@ -1,0 +1,32 @@
+{
+  "id": 35,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwagfriapc2c",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwagfriapc2c",
+  "text": "I was expecting a catch, but they just kept serving me more beers. #vietnam #catba #beer",
+  "postedAt": "2026-09-24T04:32:47.028Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 1,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-25",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-26",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    }
+  ]
+}

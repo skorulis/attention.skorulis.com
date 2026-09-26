@@ -1,15 +1,15 @@
 {
   "name": "Instagram Hashtags",
   "introduction": "Compare engagement on similar Instagram posts — same format and subject — where some captions include hashtags and others do not. The goal is to see whether tags change likes, views, or other interaction metrics.",
-  "results": "Early sample: few posts so far, and the with-hashtags arm has more observations than without. Treat averages as directional only until more matched pairs are added.",
+  "results": "Six beer-review posts with hashtags vs two without. Averages are close: with-hashtags ~26 likes / 201 views, without ~28 likes / 192 views. The without-hashtags arm is still thin, and newer posts have had less time to accumulate reach, so treat this as directional rather than conclusive.",
   "arms": [
     {
       "label": "With hashtags",
-      "postIds": [9, 10, 15]
+      "postIds": [9, 10, 15, 21, 27, 28]
     },
     {
       "label": "Without hashtags",
-      "postIds": [14]
+      "postIds": [14, 22]
     }
   ]
 }

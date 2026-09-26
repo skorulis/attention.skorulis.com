@@ -1,0 +1,32 @@
+{
+  "id": 36,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwcsgxo5ns2g",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwcsgxo5ns2g",
+  "text": "Next stop on my vietnam trip: Ninh Binh. My favourite place so far. Easy to get around, beautiful scenery and not over touristy #vietnam\n\nblog.skorulis.com/2026/09/20/n...",
+  "postedAt": "2026-09-25T03:13:31.451Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-09-25",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-09-26",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
