@@ -1,0 +1,33 @@
+{
+  "name": "attention-reel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generate a monthly Instagram reel from bigalbumofbeers.com",
+  "scripts": {
+    "fetch": "tsx src/cli.ts fetch",
+    "pick": "tsx src/cli.ts pick",
+    "render": "tsx src/cli.ts render",
+    "reel": "tsx src/cli.ts all",
+    "studio": "tsx src/cli.ts studio",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "^4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

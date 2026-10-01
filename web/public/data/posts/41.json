@@ -1,0 +1,24 @@
+{
+  "id": 41,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwqerynl5s2d",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwqerynl5s2d",
+  "text": "Last stop on my Vietnam trip: Hanoi. Had a bit of a lazier time than other cities without too much site seeing.\n\nblog.skorulis.com/2026/09/26/h...",
+  "postedAt": "2026-09-30T12:46:25.532Z",
+  "likes": 0,
+  "views": null,
+  "comments": 1,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-10-01",
+      "likes": 0,
+      "views": null,
+      "comments": 1,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}

@@ -7,4 +7,7 @@ accounts.json
 *.sqlite-wal
 *.sqlite-shm
 web/dist/
+reel/out/
+reel/public/*/
+reel/months/*/beers.json
 .DS_Store

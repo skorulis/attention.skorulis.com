@@ -8,8 +8,10 @@
     "sync": "tsx src/index.ts",
     "export": "tsx src/export-cli.ts",
     "site": "npm run site:build && vite preview --config web/vite.config.ts",
-    "site:dev": "vite --config web/vite.config.ts",
-    "site:build": "vite build --config web/vite.config.ts"
+    "dev": "vite --config web/vite.config.ts",
+    "site:build": "vite build --config web/vite.config.ts",
+    "reel": "npm --prefix reel run reel --",
+    "reel:studio": "npm --prefix reel run studio --"
   },
   "engines": {
     "node": ">=20"

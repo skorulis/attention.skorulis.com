@@ -1,0 +1,118 @@
+{
+  "month": "2026-09",
+  "monthName": "September",
+  "hook": {
+    "headline": "31 new beers in September",
+    "teaser": "One of these scored 1/10. Stay for the best."
+  },
+  "stats": {
+    "beers": 31,
+    "countries": 6,
+    "styles": 15,
+    "averageRating": 6.4
+  },
+  "countdown": [
+    {
+      "slug": "hanoi-homebrew-citra-fog",
+      "name": "HaNoi Homebrew Citra Fog",
+      "brewery": "HaNoi HomeBrew",
+      "country": "Vietnam",
+      "style": "IPA - New England / Hazy",
+      "rating": 8,
+      "quote": "Pineapple and apricot come together as a delicious blend",
+      "longQuote": "Light on the haze but full on with the fruit. Pineapple and apricot come together as a delicious blend. I went through it way too soon",
+      "image": "2026-09/hanoi-homebrew-citra-fog.jpeg"
+    },
+    {
+      "slug": "philter-sydney-stout",
+      "name": "Philter Sydney Stout",
+      "brewery": "Philter Brewing",
+      "country": "Australia",
+      "style": "Stout - Other",
+      "rating": 8,
+      "quote": "A beer I could either sit on or skull",
+      "longQuote": "Creamy with a light finish. Similar to Guinness but less bitter. A beer I could either sit on or skull",
+      "image": "2026-09/philter-sydney-stout.jpeg"
+    },
+    {
+      "slug": "thom-dante-s-inferno",
+      "name": "Thom Dante’s Inferno",
+      "brewery": null,
+      "country": null,
+      "style": null,
+      "rating": 8,
+      "quote": "It’s surprisingly easy to drink and well balanced",
+      "longQuote": "Really strong on the candied sugar giving it a sweet finish. It’s surprisingly easy to drink and well balanced. It’s missing some depth of flavour but good overall",
+      "image": "2026-09/thom-dante-s-inferno.jpeg"
+    },
+    {
+      "slug": "khoi-brewpub-gio-lao-green-rice",
+      "name": "Khoi Brewpub Gió Lào Green Rice",
+      "brewery": "HkD Khoi Brewpub",
+      "country": "Vietnam",
+      "style": "Spiced / Herbed Beer",
+      "rating": 8.5,
+      "quote": "I like the unique green tinge and it has the taste of rice starch and a nice hit of sweetness",
+      "longQuote": "I like the unique green tinge and it has the taste of rice starch and a nice hit of sweetness. Still refreshing",
+      "image": "2026-09/khoi-brewpub-gio-lao-green-rice.jpeg"
+    },
+    {
+      "slug": "7-bridges-imperial-double-ipa",
+      "name": "7 Bridges Imperial Double IPA",
+      "brewery": "7 Bridges Brewing Company",
+      "country": "Vietnam",
+      "style": "IPA - Imperial / Double",
+      "rating": 9,
+      "quote": "Fits surprisingly well in the hot climate",
+      "longQuote": "Mellow taste with a lot of orange aroma. Just a little bit of dank at the end. You don’t usually see a west coast this easy to drink",
+      "image": "2026-09/7-bridges-imperial-double-ipa.jpeg"
+    }
+  ],
+  "worst": {
+    "slug": "thom-tay-bac",
+    "name": "Thom Tây Bǎc",
+    "brewery": "Thơm Brewery",
+    "country": "Vietnam",
+    "style": "Farmhouse Ale - Saison",
+    "rating": 1,
+    "quote": "Overall so bad I couldn’t finish it",
+    "longQuote": "This beer is probably past its prime. I had to wait 5 minutes for the frothing to stop and it has a sour taste. Overall so bad I couldn’t finish it",
+    "image": "2026-09/thom-tay-bac.jpeg"
+  },
+  "images": [
+    "2026-09/ninh-binh-twilight.jpeg",
+    "2026-09/ninh-binh-co-do-ember.jpeg",
+    "2026-09/ninh-binh-tam-coc-golden-rice.jpeg",
+    "2026-09/bia-hoi-navy.jpeg",
+    "2026-09/navy-black.jpeg",
+    "2026-09/bia-nada.jpeg",
+    "2026-09/bia-hoi-ha-noi.jpeg",
+    "2026-09/tiger-crystal.jpeg",
+    "2026-09/sabeco-saigon-chill.jpeg",
+    "2026-09/thom-dante-s-inferno.jpeg",
+    "2026-09/camel-premium.jpeg",
+    "2026-09/shandong-hande-diwangyuan-1583-witbeer.jpeg",
+    "2026-09/thom-tay-bac.jpeg",
+    "2026-09/hanoi-homebrew-citra-fog.jpeg",
+    "2026-09/hanoi-homebrew-dont-be-afraid.jpeg",
+    "2026-09/heineken-bia-viet-cold-brew-lager.jpeg",
+    "2026-09/khoi-brewpub-phong-nha-ipa.jpeg",
+    "2026-09/khoi-brewpub-gio-lao-green-rice.jpeg",
+    "2026-09/east-west-saigon-rose.jpeg",
+    "2026-09/5-elements-black-forest-ale.jpeg",
+    "2026-09/5-elements-kim-weizen.jpeg",
+    "2026-09/east-west-ipa.jpeg",
+    "2026-09/larue-qualite-d-origine.jpeg",
+    "2026-09/brewmaster-amber.jpeg",
+    "2026-09/brewmaster-baco-wheat-beer.jpeg",
+    "2026-09/7-bridges-imperial-double-ipa.jpeg",
+    "2026-09/carlsbeg-huda.jpeg",
+    "2026-09/betsy-gwei-lo.jpeg",
+    "2026-09/future-monkey-magic.jpeg",
+    "2026-09/philter-sydney-stout.jpeg",
+    "2026-09/club-columbia-roma.jpeg"
+  ],
+  "cta": {
+    "question": "Which one would you try?"
+  }
+}

@@ -62,7 +62,7 @@ A static dashboard charts follower growth per account and engagement over time p
 
 ```bash
 npm run export    # refresh JSON from SQLite without syncing
-npm run site:dev  # local Vite server at http://localhost:5173
+npm run dev       # local Vite server at http://localhost:5173
 npm run site      # production build + preview
 ```
 
@@ -114,6 +114,29 @@ One-time setup:
 2. Repo **Settings → Pages**: Source = **GitHub Actions**; custom domain = `attention.skorulis.com`; enable HTTPS when available
 
 `accounts.json` and SQLite stay gitignored. Only the exported JSON is public.
+## Monthly reel
+
+`reel/` turns a month of beers from [bigalbumofbeers.com](https://bigalbumofbeers.com/beers/) into a 1080x1920 Instagram reel (about 30s): a hook montage, stats, a top-5 countdown, the worst beer, the #1 reveal, and a "which would you try?" prompt. It renders silent so you can add trending audio in the Instagram app.
+
+```bash
+npm --prefix reel install   # once
+npm run reel -- 2026-10     # month defaults to last month
+```
+
+This scrapes the month, picks highlights, and writes `reel/out/<month>/`:
+
+- `reel.mp4` — the reel
+- `cover.png` — the #1 reveal frame, for the reel cover
+- `caption.txt` — a caption with hashtags
+
+The picks go to `reel/months/<month>/story.json` (committed). Edit it to swap beers or reword the hook or quotes, then run `npm --prefix reel run render -- <month>`. Re-running `npm run reel` keeps your edits. Add `--fresh` to re-scrape and regenerate the story.
+
+Other commands (all take an optional month):
+
+- `npm --prefix reel run fetch` — re-scrape beers and photos
+- `npm --prefix reel run pick` — build `story.json` (add `--fresh` to overwrite)
+- `npm run reel:studio` — live preview in Remotion Studio (defaults to the latest month with a `story.json`). Use the Studio Render button after this; it needs that month loaded.
+
 ## Schedule
 
 Run on a timer with cron or launchd. Example crontab (every hour):

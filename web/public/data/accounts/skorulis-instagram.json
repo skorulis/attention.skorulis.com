@@ -2,8 +2,8 @@
   "id": "skorulis-instagram",
   "platform": "instagram",
   "handle": "skorulis",
-  "followers": 6839,
-  "updatedAt": "2026-09-26T03:18:58.626Z",
+  "followers": 6836,
+  "updatedAt": "2026-10-01T00:49:38.174Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
@@ -32,9 +32,42 @@
     {
       "recordedOn": "2026-09-26",
       "followers": 6839
+    },
+    {
+      "recordedOn": "2026-09-27",
+      "followers": 6837
+    },
+    {
+      "recordedOn": "2026-09-28",
+      "followers": 6837
+    },
+    {
+      "recordedOn": "2026-09-29",
+      "followers": 6838
+    },
+    {
+      "recordedOn": "2026-09-30",
+      "followers": 6837
+    },
+    {
+      "recordedOn": "2026-10-01",
+      "followers": 6836
     }
   ],
   "posts": [
+    {
+      "id": 40,
+      "platform": "instagram",
+      "platformPostId": "18216938938352048",
+      "url": "https://www.instagram.com/p/Dd3HiakOEai/",
+      "text": "Ibiero King IPA 8.2% Really great hop balance but I’m struggling to pick the flavours. Like there’s a fruit that I just…",
+      "postedAt": "2026-09-29T06:29:57.000Z",
+      "likes": 24,
+      "views": 121,
+      "comments": 1,
+      "reposts": 0,
+      "quotes": null
+    },
     {
       "id": 33,
       "platform": "instagram",
@@ -42,8 +75,8 @@
       "url": "https://www.instagram.com/reel/DdlG6A5Ba7n/",
       "text": "#tamcốc #beer #vietnam #relaxation",
       "postedAt": "2026-09-22T06:40:07.000Z",
-      "likes": 31,
-      "views": 286,
+      "likes": 32,
+      "views": 304,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -55,8 +88,8 @@
       "url": "https://www.instagram.com/p/DdiCeyvsVeS/",
       "text": "Tiger Crystal 4.6% Very light with a little malt profile and almost no bitterness. Very much a hot weather beer 6.5/10 …",
       "postedAt": "2026-09-21T02:04:28.000Z",
-      "likes": 19,
-      "views": 167,
+      "likes": 23,
+      "views": 195,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -68,8 +101,8 @@
       "url": "https://www.instagram.com/p/Ddg7y_ThhPB/",
       "text": "Sabeco Saigon Chill 4.6% Not sure if I can tell this from regular Saigon lager. Maybe a tad less bitter. I’m not sure I…",
       "postedAt": "2026-09-20T15:45:10.000Z",
-      "likes": 19,
-      "views": 211,
+      "likes": 23,
+      "views": 233,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -81,8 +114,8 @@
       "url": "https://www.instagram.com/p/DdfSkFfM2mD/",
       "text": "Thom Dante’s Inferno 12.76% Really strong on the candied sugar giving it a sweet finish. It’s surprisingly easy to drin…",
       "postedAt": "2026-09-20T00:25:48.000Z",
-      "likes": 21,
-      "views": 158,
+      "likes": 23,
+      "views": 175,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -95,7 +128,7 @@
       "text": "HaNoi Homebrew Citra Fog 6.5% Light on the haze but full on with the fruit. Pineapple and apricot come together as a de…",
       "postedAt": "2026-09-18T11:06:14.000Z",
       "likes": 39,
-      "views": 234,
+      "views": 243,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -107,8 +140,8 @@
       "url": "https://www.instagram.com/p/DdaUohBhkLF/",
       "text": "HaNoi Homebrew Dont be afraid 8.6% Classic double IPA. There’s a lot of earthy hops with a very small amount of stone f…",
       "postedAt": "2026-09-18T02:07:06.000Z",
-      "likes": 47,
-      "views": 223,
+      "likes": 49,
+      "views": 233,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -120,8 +153,8 @@
       "url": "https://www.instagram.com/p/DdZE78CTKdW/",
       "text": "Shandong Hande Diwangyuan 1583 Witbeer 4.8% I purchased this because of the funny giant can which I then realised I cou…",
       "postedAt": "2026-09-17T14:30:13.000Z",
-      "likes": 22,
-      "views": 186,
+      "likes": 24,
+      "views": 198,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -134,7 +167,7 @@
       "text": "Thom Tây Bǎc 6.3% This beer is probably past its prime. I had to wait 5 minutes for the frothing to stop and it has a s…",
       "postedAt": "2026-09-17T10:04:50.000Z",
       "likes": 21,
-      "views": 214,
+      "views": 220,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -173,7 +206,7 @@
       "text": "The Mitch in Alexandria. The venue Local neighbourhood pub with a pizza oven and a couple of craft beers on tap with so…",
       "postedAt": "2026-09-01T06:34:51.000Z",
       "likes": 22,
-      "views": 411,
+      "views": 414,
       "comments": 0,
       "reposts": 0,
       "quotes": null
