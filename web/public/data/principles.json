@@ -4,11 +4,10 @@
       "slug": "how-you-say-it",
       "title": "It's not what you say, it's how you say it.",
       "summary": "Presentation beats content.",
-      "why": "The same information as a plain text post and as an image gets wildly different engagement. The words don't change; the attention does. Treat formatting as part of the message, not decoration on top of it.",
+      "why": "The way the information is presented matters far more for engagement than that the actual content is.",
       "tactics": [
         "Default to an image or video. Text-only is the fallback, not the starting point.",
-        "One idea per post. If it needs a second idea, that's a second post.",
-        "Before posting, ask: would this stop me if someone else posted it?"
+        "Once a working presentation is discovered, keep reusing it with new content."
       ],
       "imagePrompt": "The same simple object shown twice side by side: on the left dull, flat and grey; on the right the identical object dramatically lit, saturated and glowing",
       "images": []
@@ -19,9 +18,8 @@
       "summary": "Nobody is keeping score.",
       "why": "Original ideas are expensive and most people aren't paying close attention. Something that worked once will usually work again with a small change. Treat every successful post as a template, not a one-off.",
       "tactics": [
-        "Keep a swipe file of your own winners and revisit it before making anything new.",
-        "Rotate the format, keep the message: text, image, carousel, short video.",
-        "Cross-post everywhere with small platform-specific tweaks."
+        "Don't discuss an idea once, if it resonates keep talking about it.",
+        "Talk about ideas early rather than waiting for a perfect post at the end."
       ],
       "imagePrompt": "A single stencil or rubber stamp print repeated many times in a grid, each copy a slightly different colour or angle, one copy clearly brighter than the rest",
       "images": []
