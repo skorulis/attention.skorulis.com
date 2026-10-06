@@ -5,7 +5,7 @@ export async function renderExperiments(root: HTMLElement): Promise<() => void> 
   root.innerHTML = `
     <header class="site-header">
       <a class="brand" href="#/">Attention</a>
-      <p class="nav-meta">Experiments</p>
+      <p class="nav-meta"><a href="#/principles">Principles</a> · Experiments</p>
     </header>
     <nav class="crumb">
       <a href="#/">Accounts</a><span>/</span>

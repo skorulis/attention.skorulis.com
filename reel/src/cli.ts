@@ -79,14 +79,19 @@ function hashtag(text: string): string {
 }
 
 function caption(story: Story, beers: Beer[]): string {
-  const top = story.countdown.at(-1);
   const countries = [...new Set(beers.map((b) => b.country?.split(" / ")[0]).filter(Boolean))] as string[];
   const tags = ["#beer", "#craftbeer", "#beerreview", "#beerstagram", "#untappd", ...countries.slice(0, 4).map((c) => hashtag(`${c}beer`))];
+  
+  // List all beers by rating (highest first)
+  const sortedBeers = [...beers]
+    .filter((b) => b.rating !== null)
+    .sort((a, b) => b.rating! - a.rating!)
+    .map((beer, i) => `${i + 1}. ${beer.name} (${beer.rating}/10)`);
+  
   return [
     `${story.hook.headline}, ranked 🍺`,
     "",
-    top ? `🥇 ${top.name} (${top.rating}/10)` : null,
-    story.worst ? `💀 ${story.worst.name} (${story.worst.rating}/10)` : null,
+    ...sortedBeers,
     "",
     story.cta.question,
     "",

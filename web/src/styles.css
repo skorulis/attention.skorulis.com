@@ -341,3 +341,69 @@ a:hover {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.principle-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.principle-card {
+  padding: 1.25rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.principle-number {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+.principle-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0.35rem 0 0.4rem;
+}
+
+.principle-summary {
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.principle-card p {
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.principle-tactics {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.principle-tactics li + li {
+  margin-top: 0.35rem;
+}
+
+.principle-images {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.principle-images img {
+  max-height: 220px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  display: block;
+}

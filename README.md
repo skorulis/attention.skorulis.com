@@ -11,7 +11,7 @@ npm install
 cp accounts.example.json accounts.json
 ```
 
-Edit `accounts.json` with your accounts. That file is gitignored.
+Edit `accounts.json` with your accounts. That file is gitignored, as is `.env` (API keys for `cards/`).
 
 How to fill in each platform:
 
@@ -73,6 +73,7 @@ Routes (hash):
 - `#/post/:id` — engagement series (likes, views, comments, reposts, quotes when present)
 - `#/experiments` — list of documented experiments
 - `#/experiment/:slug` — comparison page for one experiment
+- `#/principles` — the posting rules every post is measured against
 
 ### Experiments
 
@@ -103,6 +104,12 @@ Per experiment, `web/public/data/experiments/{slug}.json`:
 ```
 
 `postIds` are local post IDs (same as `web/public/data/posts/{id}.json`). The page loads those posts and shows per-arm averages for likes and views.
+
+### Principles
+
+The `#/principles` page lists the hand-authored posting rules in `web/public/data/principles.json` (not written by sync/export). Each rule has a title, one-line summary, a "why" paragraph, tactics, an `imagePrompt` used by the rule-card generator, and an `images` list of published card images shown as thumbnails.
+
+Publishing a card (`npm run cards -- publish <slug> <style>`) copies the PNG to `web/public/principles/<slug>/` and appends `/principles/<slug>/<style>.png` to that rule's `images`.
 
 ### Deploy (GitHub Pages)
 
@@ -164,3 +171,24 @@ Hand-authored (not overwritten by export):
 
 - `web/public/data/experiments/index.json`
 - `web/public/data/experiments/{slug}.json`
+- `web/public/data/principles.json`
+
+## Rule cards
+
+`cards/` turns each principle into a post-ready 1080x1350 image: gpt-image-1 generates a text-free background from the rule's `imagePrompt`, and Remotion overlays the exact rule number, title and summary so the words are always verbatim.
+
+```bash
+npm --prefix cards install   # once
+cp .env.example .env         # required for `generate` unless --dry
+```
+
+Put `OPENAI_API_KEY` in `.env` (gitignored, read by `npm run cards`); a variable exported in your shell takes precedence.
+
+Commands:
+
+- `npm run cards -- generate [slug] [--style <name>|--all-styles] [--fresh] [--dry]` — generate the background (cached at `cards/out/<slug>/<style>.bg.png`; `--fresh` regenerates) and render the card to `cards/out/<slug>/<style>.png`. With no `--style`, each rule gets a different style picked by its position. `--dry` skips OpenAI and renders over a dark placeholder background.
+- `npm run cards -- render [slug] [--style <name>|--all-styles]` — re-overlay from cached backgrounds; no API calls.
+- `npm run cards -- publish <slug> <style>` — copy a rendered card to `web/public/principles/<slug>/<style>.png` and add it to the rule's `images` in `principles.json`.
+- `npm --prefix cards run studio` — Remotion Studio preview.
+
+Styles are named presets in `cards/src/styles.ts` (risograph, flat-vector, bold-collage, editorial-photo, neon-grid, paper-cut, brutalist, watercolor); each sets the background prompt, overlay font and accent colour. Cost: gpt-image-1 at medium quality is a few cents per background; `--all-styles` over 3 rules is 24 calls. `cards/out/` and `cards/public/` are gitignored.

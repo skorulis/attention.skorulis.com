@@ -4,6 +4,7 @@ import type {
   ExperimentIndex,
   IndexData,
   PostData,
+  PrinciplesData,
 } from "./types";
 
 async function fetchJson<T>(url: string): Promise<T> {
@@ -28,6 +29,10 @@ export function loadPost(id: string): Promise<PostData> {
 
 export function loadExperimentIndex(): Promise<ExperimentIndex> {
   return fetchJson<ExperimentIndex>("/data/experiments/index.json");
+}
+
+export function loadPrinciples(): Promise<PrinciplesData> {
+  return fetchJson<PrinciplesData>("/data/principles.json");
 }
 
 export function loadExperiment(slug: string): Promise<ExperimentData> {

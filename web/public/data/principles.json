@@ -1,0 +1,43 @@
+{
+  "principles": [
+    {
+      "slug": "how-you-say-it",
+      "title": "It's not what you say, it's how you say it.",
+      "summary": "Presentation beats content.",
+      "why": "The same information as a plain text post and as an image gets wildly different engagement. The words don't change; the attention does. Treat formatting as part of the message, not decoration on top of it.",
+      "tactics": [
+        "Default to an image or video. Text-only is the fallback, not the starting point.",
+        "One idea per post. If it needs a second idea, that's a second post.",
+        "Before posting, ask: would this stop me if someone else posted it?"
+      ],
+      "imagePrompt": "The same simple object shown twice side by side: on the left dull, flat and grey; on the right the identical object dramatically lit, saturated and glowing",
+      "images": []
+    },
+    {
+      "slug": "reuse-and-repost",
+      "title": "Reuse and repost as much as possible.",
+      "summary": "Nobody is keeping score.",
+      "why": "Original ideas are expensive and most people aren't paying close attention. Something that worked once will usually work again with a small change. Treat every successful post as a template, not a one-off.",
+      "tactics": [
+        "Keep a swipe file of your own winners and revisit it before making anything new.",
+        "Rotate the format, keep the message: text, image, carousel, short video.",
+        "Cross-post everywhere with small platform-specific tweaks."
+      ],
+      "imagePrompt": "A single stencil or rubber stamp print repeated many times in a grid, each copy a slightly different colour or angle, one copy clearly brighter than the rest",
+      "images": []
+    },
+    {
+      "slug": "win-the-first-second",
+      "title": "Win the first second.",
+      "summary": "Stop or scroll is decided before anyone reads.",
+      "why": "The decision to stop happens before the post is read. Lead with the strongest element: the image, the number, the headline. Everything else is only seen if the first second works. Rule one is how you win it; rule two says a hook that worked once will work again.",
+      "tactics": [
+        "Put the payoff first. No warm-up, no context, no 'so I was thinking'.",
+        "Make the first frame readable at thumbnail size.",
+        "If the hook doesn't land in testing, change the hook before changing anything else."
+      ],
+      "imagePrompt": "A thumb frozen mid-scroll above a phone, one bright vivid frame on screen surrounded by a blur of grey motion",
+      "images": []
+    }
+  ]
+}

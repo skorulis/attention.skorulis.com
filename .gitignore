@@ -2,6 +2,7 @@ node_modules/
 dist/
 /data/
 accounts.json
+.env
 *.sqlite
 *.sqlite-journal
 *.sqlite-wal
@@ -10,4 +11,6 @@ web/dist/
 reel/out/
 reel/public/*/
 reel/months/*/beers.json
+cards/out/
+cards/public/
 .DS_Store

@@ -3,6 +3,7 @@ export type Route =
   | { name: "account"; id: string }
   | { name: "post"; id: string }
   | { name: "experiments" }
+  | { name: "principles" }
   | { name: "experiment"; slug: string }
   | { name: "notfound" };
 
@@ -20,6 +21,10 @@ export function parseRoute(hash = window.location.hash): Route {
 
   if (parts[0] === "post" && parts[1]) {
     return { name: "post", id: decodeURIComponent(parts[1]) };
+  }
+
+  if (parts[0] === "principles" && parts.length === 1) {
+    return { name: "principles" };
   }
 
   if (parts[0] === "experiments" && parts.length === 1) {

@@ -2,8 +2,8 @@
   "id": "skorulis-instagram",
   "platform": "instagram",
   "handle": "skorulis",
-  "followers": 6836,
-  "updatedAt": "2026-10-01T00:49:38.174Z",
+  "followers": 6837,
+  "updatedAt": "2026-10-06T01:29:34.061Z",
   "followerSeries": [
     {
       "recordedOn": "2026-09-17",
@@ -52,9 +52,34 @@
     {
       "recordedOn": "2026-10-01",
       "followers": 6836
+    },
+    {
+      "recordedOn": "2026-10-03",
+      "followers": 6837
+    },
+    {
+      "recordedOn": "2026-10-04",
+      "followers": 6836
+    },
+    {
+      "recordedOn": "2026-10-06",
+      "followers": 6837
     }
   ],
   "posts": [
+    {
+      "id": 42,
+      "platform": "instagram",
+      "platformPostId": "18097077383531090",
+      "url": "https://www.instagram.com/reel/Dd7ubMxBkM3/",
+      "text": "31 new beers in September, ranked 🍺 1. 7 Bridges Imperial Double IPA (9/10) 2. Khoi Brewpub Gió Lào Green Rice (8.5/10…",
+      "postedAt": "2026-10-01T01:36:40.000Z",
+      "likes": 9,
+      "views": 70,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": null
+    },
     {
       "id": 40,
       "platform": "instagram",
@@ -62,9 +87,9 @@
       "url": "https://www.instagram.com/p/Dd3HiakOEai/",
       "text": "Ibiero King IPA 8.2% Really great hop balance but I’m struggling to pick the flavours. Like there’s a fruit that I just…",
       "postedAt": "2026-09-29T06:29:57.000Z",
-      "likes": 24,
-      "views": 121,
-      "comments": 1,
+      "likes": 35,
+      "views": 164,
+      "comments": 2,
       "reposts": 0,
       "quotes": null
     },
@@ -75,8 +100,8 @@
       "url": "https://www.instagram.com/reel/DdlG6A5Ba7n/",
       "text": "#tamcốc #beer #vietnam #relaxation",
       "postedAt": "2026-09-22T06:40:07.000Z",
-      "likes": 32,
-      "views": 304,
+      "likes": 33,
+      "views": 311,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -88,10 +113,10 @@
       "url": "https://www.instagram.com/p/DdiCeyvsVeS/",
       "text": "Tiger Crystal 4.6% Very light with a little malt profile and almost no bitterness. Very much a hot weather beer 6.5/10 …",
       "postedAt": "2026-09-21T02:04:28.000Z",
-      "likes": 23,
-      "views": 195,
+      "likes": 25,
+      "views": 206,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 1,
       "quotes": null
     },
     {
@@ -101,8 +126,8 @@
       "url": "https://www.instagram.com/p/Ddg7y_ThhPB/",
       "text": "Sabeco Saigon Chill 4.6% Not sure if I can tell this from regular Saigon lager. Maybe a tad less bitter. I’m not sure I…",
       "postedAt": "2026-09-20T15:45:10.000Z",
-      "likes": 23,
-      "views": 233,
+      "likes": 26,
+      "views": 241,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -114,8 +139,8 @@
       "url": "https://www.instagram.com/p/DdfSkFfM2mD/",
       "text": "Thom Dante’s Inferno 12.76% Really strong on the candied sugar giving it a sweet finish. It’s surprisingly easy to drin…",
       "postedAt": "2026-09-20T00:25:48.000Z",
-      "likes": 23,
-      "views": 175,
+      "likes": 26,
+      "views": 182,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -127,8 +152,8 @@
       "url": "https://www.instagram.com/p/DdbRUM1AH7C/",
       "text": "HaNoi Homebrew Citra Fog 6.5% Light on the haze but full on with the fruit. Pineapple and apricot come together as a de…",
       "postedAt": "2026-09-18T11:06:14.000Z",
-      "likes": 39,
-      "views": 243,
+      "likes": 41,
+      "views": 251,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -140,9 +165,9 @@
       "url": "https://www.instagram.com/p/DdaUohBhkLF/",
       "text": "HaNoi Homebrew Dont be afraid 8.6% Classic double IPA. There’s a lot of earthy hops with a very small amount of stone f…",
       "postedAt": "2026-09-18T02:07:06.000Z",
-      "likes": 49,
-      "views": 233,
-      "comments": 0,
+      "likes": 51,
+      "views": 234,
+      "comments": 1,
       "reposts": 0,
       "quotes": null
     },
@@ -153,8 +178,8 @@
       "url": "https://www.instagram.com/p/DdZE78CTKdW/",
       "text": "Shandong Hande Diwangyuan 1583 Witbeer 4.8% I purchased this because of the funny giant can which I then realised I cou…",
       "postedAt": "2026-09-17T14:30:13.000Z",
-      "likes": 24,
-      "views": 198,
+      "likes": 25,
+      "views": 201,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -166,8 +191,8 @@
       "url": "https://www.instagram.com/p/DdYmki2pbfM/",
       "text": "Thom Tây Bǎc 6.3% This beer is probably past its prime. I had to wait 5 minutes for the frothing to stop and it has a s…",
       "postedAt": "2026-09-17T10:04:50.000Z",
-      "likes": 21,
-      "views": 220,
+      "likes": 22,
+      "views": 221,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -179,8 +204,8 @@
       "url": "https://www.instagram.com/p/DdMQKy3GZJo/",
       "text": "Brewmaster Amber 5.4% Light on the bitterness for an amber. It’s good but kind of misses the point of what an amber sho…",
       "postedAt": "2026-09-12T14:57:18.000Z",
-      "likes": 34,
-      "views": 280,
+      "likes": 35,
+      "views": 281,
       "comments": 0,
       "reposts": 0,
       "quotes": null
@@ -192,8 +217,8 @@
       "url": "https://www.instagram.com/p/DdJPZRxmZxj/",
       "text": "Khoi Brewpub Gió Lào Green Rice 4.5% I like the unique green tinge and it has the taste of rice starch and a nice hit o…",
       "postedAt": "2026-09-11T10:52:49.000Z",
-      "likes": 53,
-      "views": 360,
+      "likes": 54,
+      "views": 361,
       "comments": 0,
       "reposts": 0,
       "quotes": null

@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-10-01T00:49:38.189Z",
+  "exportedAt": "2026-10-06T01:29:34.076Z",
   "accounts": [
     {
       "id": "skorulis-instagram",
       "platform": "instagram",
       "handle": "skorulis",
-      "followers": 6836,
-      "updatedAt": "2026-10-01T00:49:38.174Z",
+      "followers": 6837,
+      "updatedAt": "2026-10-06T01:29:34.061Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-17",
@@ -55,6 +55,18 @@
         {
           "recordedOn": "2026-10-01",
           "followers": 6836
+        },
+        {
+          "recordedOn": "2026-10-03",
+          "followers": 6837
+        },
+        {
+          "recordedOn": "2026-10-04",
+          "followers": 6836
+        },
+        {
+          "recordedOn": "2026-10-06",
+          "followers": 6837
         }
       ]
     },
@@ -62,8 +74,8 @@
       "id": "skorulis-growth-bsky",
       "platform": "bluesky",
       "handle": "skorulis-growth.bsky.social",
-      "followers": 2,
-      "updatedAt": "2026-10-01T00:49:34.257Z",
+      "followers": 3,
+      "updatedAt": "2026-10-06T01:29:29.560Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-17",
@@ -112,6 +124,18 @@
         {
           "recordedOn": "2026-10-01",
           "followers": 2
+        },
+        {
+          "recordedOn": "2026-10-03",
+          "followers": 3
+        },
+        {
+          "recordedOn": "2026-10-04",
+          "followers": 3
+        },
+        {
+          "recordedOn": "2026-10-06",
+          "followers": 3
         }
       ]
     },
@@ -120,7 +144,7 @@
       "platform": "bluesky",
       "handle": "skorulis.bsky.social",
       "followers": 57,
-      "updatedAt": "2026-10-01T00:49:33.838Z",
+      "updatedAt": "2026-10-06T01:29:29.148Z",
       "followerSeries": [
         {
           "recordedOn": "2026-09-16",
@@ -172,6 +196,18 @@
         },
         {
           "recordedOn": "2026-10-01",
+          "followers": 57
+        },
+        {
+          "recordedOn": "2026-10-03",
+          "followers": 57
+        },
+        {
+          "recordedOn": "2026-10-04",
+          "followers": 57
+        },
+        {
+          "recordedOn": "2026-10-06",
           "followers": 57
         }
       ]

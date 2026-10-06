@@ -11,7 +11,8 @@
     "dev": "vite --config web/vite.config.ts",
     "site:build": "vite build --config web/vite.config.ts",
     "reel": "npm --prefix reel run reel --",
-    "reel:studio": "npm --prefix reel run studio --"
+    "reel:studio": "npm --prefix reel run studio --",
+    "cards": "npm --prefix cards run cards --"
   },
   "engines": {
     "node": ">=20"

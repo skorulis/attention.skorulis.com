@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(env)",
+      "Exec(npm install)",
+      "Exec(rm)"
+    ]
+  }
+}

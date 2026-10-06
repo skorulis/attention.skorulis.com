@@ -1,0 +1,30 @@
+{
+  "name": "attention-cards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generate 1080x1350 rule-card images for the principles page",
+  "scripts": {
+    "cards": "tsx src/cli.ts",
+    "studio": "tsx src/cli.ts studio",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "^4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -5,6 +5,7 @@ import { renderExperiment } from "./views/experiment";
 import { renderExperiments } from "./views/experiments";
 import { renderHome } from "./views/home";
 import { renderPost } from "./views/post";
+import { renderPrinciples } from "./views/principles";
 
 const root = document.querySelector("#app");
 if (!(root instanceof HTMLElement)) {
@@ -29,6 +30,10 @@ async function render(): Promise<void> {
   }
   if (route.name === "post") {
     cleanup = await renderPost(app, route.id);
+    return;
+  }
+  if (route.name === "principles") {
+    cleanup = await renderPrinciples(app);
     return;
   }
   if (route.name === "experiments") {

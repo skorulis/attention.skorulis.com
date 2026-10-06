@@ -1,0 +1,32 @@
+{
+  "id": 43,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mwz756qids27",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mwz756qids27",
+  "text": "I’m so sick of Netflix documentaries that pad out the story with detailed back stories of everyone involved. Just tell me what happened. It’s all just a cheap way to stretch it out to get more hours of watch time.",
+  "postedAt": "2026-10-04T00:59:16.208Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 1,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-10-04",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    },
+    {
+      "recordedOn": "2026-10-06",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 1,
+      "quotes": 0
+    }
+  ]
+}

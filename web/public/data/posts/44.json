@@ -1,0 +1,24 @@
+{
+  "id": 44,
+  "accountId": "skorulis-bsky",
+  "platform": "bluesky",
+  "platformPostId": "at://did:plc:pycnzbpacq7qiv4gnvmbnoaa/app.bsky.feed.post/3mx64glejrs2l",
+  "url": "https://bsky.app/profile/skorulis.bsky.social/post/3mx64glejrs2l",
+  "text": "I've made the switch from Cursor to Windsurf. I only lost about a day getting accustomed to the new system. It's going to be a big problem for these companies with insane valuations where they have no moat to keep existing customers.",
+  "postedAt": "2026-10-05T23:54:08.907Z",
+  "likes": 0,
+  "views": null,
+  "comments": 0,
+  "reposts": 0,
+  "quotes": 0,
+  "series": [
+    {
+      "recordedOn": "2026-10-06",
+      "likes": 0,
+      "views": null,
+      "comments": 0,
+      "reposts": 0,
+      "quotes": 0
+    }
+  ]
+}
